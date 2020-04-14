@@ -44,7 +44,7 @@ class TicketingAppServiceProvider extends ServiceProvider
         // $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
 
         \Route::group([ 
-            'as'        => 'qh-support-ticket-system',
+            'as'        => 'qh-support-ticket-system.',
             'namespace' => 'Qodehub\TicketingApp\Http\Controllers', 
         ], function () {
             $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
